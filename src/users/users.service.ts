@@ -12,8 +12,8 @@ export class UsersService {
 
     const newUser = {
       id: Date.now(),
-      firstname: dto.firstname,
-      lastname: dto.lastname,
+      firstName: dto.firstName,
+      lastName: dto.lastName,
       email: dto.email,
       password: hashedPassword,
     }
